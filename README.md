@@ -1,0 +1,2 @@
+# neo4j_connect_python
+python経由のneo4jアクセス検証
