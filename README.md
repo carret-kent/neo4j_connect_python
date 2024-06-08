@@ -66,11 +66,13 @@ MATCH (n:Person) RETURN n LIMIT 25
 プロセスを簡略化するために、提供された`Makefile`を使用できます。以下のコマンドが利用可能です：
 
 - `make install`: Poetryを使用して依存関係をインストールします。
-- `make run`: Pythonスクリプトを実行します。
+- `make run`: `main.py`を実行します。
+- `make delete`: `delete_all.py`を実行してNeo4jのデータをすべて削除します。
 
 ### 使用例：
 
 ```bash
 make install
 make run
+make delete
 ```
